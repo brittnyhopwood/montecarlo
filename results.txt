@@ -1,0 +1,24 @@
+Successfully installed montecarlo
+bash-4.2$ !python montecarlo_tests.py
+ python3 -m pip install -U pandas montecarlo_tests.py
+Defaulting to user installation because normal site-packages is not writeable
+Collecting pandas
+  Downloading pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.4 MB)
+     |████████████████████████████████| 12.4 MB 18.8 MB/s 
+ERROR: Could not find a version that satisfies the requirement montecarlo_tests.py (from versions: none)
+ERROR: No matching distribution found for montecarlo_tests.py
+bash-4.2$ pwd
+/home/ymb7fb/Documents/MSDS/DS5100/DS5100-2023-01-ymb7fb/finalproject2
+bash-4.2$ !python montecarlo_tests.py
+ python3 -m pip install -U pandas montecarlo_tests.py
+Defaulting to user installation because normal site-packages is not writeable
+Collecting pandas
+  Using cached pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.4 MB)
+ERROR: Could not find a version that satisfies the requirement montecarlo_tests.py (from versions: none)
+ERROR: No matching distribution found for montecarlo_tests.py
+bash-4.2$ python montecarlo_tests.py
+Traceback (most recent call last):
+  File "montecarlo_tests.py", line 144, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+bash-4.2$
