@@ -1,0 +1,24 @@
+PS C:\Users\brittnyh\OneDrive\Desktop\SPRING 2023\DS5100\final_project> & C:/Users/brittnyh/AppData/Local/Programs/Python/Python311/python.exe "c:/Users/brittnyh/OneDrive/Desktop/SPRING 2023/DS5100/final_project/montecarlo_tests.py"
+test_1_analyzer_init (__main__.AnalyzerTestSuite.test_1_analyzer_init) ... ok
+test_2_compute_combo (__main__.AnalyzerTestSuite.test_2_compute_combo) ... ok
+test_3_compute_jackpot (__main__.AnalyzerTestSuite.test_3_compute_jackpot) ... ok
+test_2_change_weight (__main__.DieTestSuite.test_2_change_weight) ... ok
+test_3_roll_dice (__main__.DieTestSuite.test_3_roll_dice) ... ERROR
+test_4_show_dice (__main__.DieTestSuite.test_4_show_dice) ... ok
+test_1_game_init (__main__.GameTestSuite.test_1_game_init) ... ok
+test_2_game_play (__main__.GameTestSuite.test_2_game_play) ... ok
+test_3_game_show (__main__.GameTestSuite.test_3_game_show) ... ok
+
+======================================================================
+ERROR: test_3_roll_dice (__main__.DieTestSuite.test_3_roll_dice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\brittnyh\OneDrive\Desktop\SPRING 2023\DS5100\final_project\montecarlo_tests.py", line 29, in test_3_roll_dice
+    initial_results_length = len(die1.results)  # Store the initial length of results
+                                 ^^^^^^^^^^^^
+AttributeError: 'Die' object has no attribute 'results'
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.060s
+
+FAILED (errors=1)
